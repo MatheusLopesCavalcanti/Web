@@ -1,0 +1,95 @@
+.Espaco{
+    background-image: url("img/Espaco.png");
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-img-top{
+    height: 100%;
+    width: 100%;
+    
+}
+
+@media (min-width: 576px){
+    .cartaoJogoBreve{
+        height: 30vh;
+    }
+}
+
+.logoPrincipal{
+    padding-top: 10vw;
+}
+
+@media (min-width: 576px){
+    .logoPrincipal{
+        padding-top: 5vw;
+    }
+}
+
+.card-group{
+    border: 0.1vw solid black;
+}
+
+.card-body{
+    border-left:  0.1vw solid black;
+    border-right:  0.1vw solid black;
+}
+
+.nav-link{
+    margin: auto;
+    border-left:  0.1vw solid darkblue;
+    border-right:  0.1vw solid darkblue;
+
+}
+
+.cardOutrosJogos{
+    padding: 3% 3% 0% 3%;
+    border:  0.2vw solid black;
+}
+
+.caixaInfoJogo{
+    margin-bottom:3%;
+    border:  0.1vw solid black;
+}
+
+.logo{
+    max-height: 5vh;
+}
+
+/*.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit 
+    min-height: 100vh; /* These two lines are counted as one :-)       
+  
+    display: flex;
+    align-items: center;
+}*/
+
+h1{
+    --minFontSize: 32px;
+    --maxFontSize: 200px;
+    --scaler: 10vw;
+    font-size: clamp( var(--minFontSize), var(--scaler), var(--maxFontSize) );
+    white-space:pre-wrap;
+    word-break:break-word;
+}
+h3{
+    --minFontSize: 32px;
+    --maxFontSize: 200px;
+    --scaler: 5vw;
+    font-size: clamp( var(--minFontSize), var(--scaler), var(--maxFontSize) );
+    white-space:pre-wrap;
+    word-break:break-word;
+}
+h5{
+    --minFontSize: 32px;
+    --maxFontSize: 200px;
+    --scaler: 1vw;
+    font-size: clamp( var(--minFontSize), var(--scaler), var(--maxFontSize) );
+    white-space:pre-wrap;
+    word-break:break-word;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
