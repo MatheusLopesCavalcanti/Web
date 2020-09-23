@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+
+    <script type = "text/javascript" src="scriptJogoDaForca.js"></script>
+    <link rel="stylesheet" type="text/css" href="JogoDaForcaCss.css">
+    <title>Game Jogo da Forca</title>
+
+</head>
+
+<body onload="start()" class="bg-dark text-light">
+
+    <!-- Título -->
+    <div class="row vertical-center">
+        <h1 class="col text-center">Jogo da Forca</h1>
+    </div>
+
+    <!-- Joguinho -->
+    <div class="container bg-white">  
+        <div class="row">
+            <!-- Imagem Forca -->
+            <div class="col text-center"> 
+                <img id = "imagemForca" class = "text-center" src="img/Forca0.png"></img>
+            </div>
+
+            <!-- Dica -->
+            <div class="col"> 
+                <p class="text-center text-dark textoDica">DICA: Quem é que ninguém se preocupa quando está pendurado na corda?</p>
+            </div>
+        </div>
+
+        <!-- Tabela Alfabeto -->
+        <div class="row">
+            <table style="width:100%">
+                <tr>
+                    <th id="A" onClick="jogada('A')">A</th>
+                    <th id="B" onClick="jogada('B')">B</th>
+                    <th id="C" onClick="jogada('C')">C</th>
+                    <th id="D" onClick="jogada('D')">D</th>
+                    <th id="E" onClick="jogada('E')">E</th>
+                    <th id="F" onClick="jogada('F')">F</th>
+                    <th id="G" onClick="jogada('G')">G</th>
+                    <th id="H" onClick="jogada('H')">H</th>
+                    <th id="I" onClick="jogada('I')">I</th>
+                    <th id="J" onClick="jogada('J')">J</th>
+                    <th id="K" onClick="jogada('K')">K</th>
+                    <th id="L" onClick="jogada('L')">L</th>
+                    <th id="M" onClick="jogada('M')">M</th>
+                </tr>
+                <tr>
+                    <th id="N" onClick="jogada('N')">N</th>
+                    <th id="O" onClick="jogada('O')">O</th>
+                    <th id="P" onClick="jogada('P')">P</th>
+                    <th id="Q" onClick="jogada('Q')">Q</th>
+                    <th id="R" onClick="jogada('R')">R</th>
+                    <th id="S" onClick="jogada('S')">S</th>
+                    <th id="T" onClick="jogada('T')">T</th>
+                    <th id="U" onClick="jogada('U')">U</th>
+                    <th id="V" onClick="jogada('V')">V</th>
+                    <th id="W" onClick="jogada('W')">W</th>
+                    <th id="X" onClick="jogada('X')">X</th>
+                    <th id="Y" onClick="jogada('Y')">Y</th>
+                    <th id="Z" onClick="jogada('Z')">Z</th>
+                </tr>
+              </table>
+        </div>
+        
+        <!-- Palavra Misteriosa -->
+        <div class="row">
+            <p id = "textoPalavra" class = "text-center textoPalavra">_ _ _ _ _&nbsp;&nbsp;&nbsp;_ _ _ _ _ _ <p>
+        </div>
+    </div>
+    
+
+</body>
+
+</html>
