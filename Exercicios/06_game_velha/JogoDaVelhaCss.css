@@ -1,0 +1,51 @@
+.titulo{
+    font-size: 700%;
+    color: black;
+}
+
+.textoInsiraNome{
+    font-size: 300%;
+    color: black;
+}
+
+.textoPalavra{
+    width: 100%;
+    font-size: 300%;
+    color: black;
+}
+
+.formInfo{
+    width: 100%;
+    font-size: 100%;
+    color: black;
+}
+
+#imagemIconeJogador{
+    width: 50%;
+}
+
+.infoJogador{
+    width: 100%;
+    text-align: center;
+    font-size: 200%;
+    color: black;
+}
+
+.pontos{
+    width: 100%;
+    text-align: center;
+    font-size: 300%;
+}
+
+.infoJogador1{
+    color: blue;
+}
+
+.infoJogador2{
+    color: red;
+}
+
+
+.imagemTabelaJogo{
+    width: 100%;
+}
